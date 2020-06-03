@@ -1,6 +1,6 @@
 # BatchUtilities
 
-For libraries to work, upload them to% systemroot% \ system32 \
+For libraries to work, upload them to %systemroot%\system32\
 
 It's best to use libraries after @echo off.
 
