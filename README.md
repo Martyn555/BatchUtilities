@@ -11,5 +11,5 @@ It's best to use libraries after @echo off.
 4. Performing operations on floating point numbers.
 5. Change the character encoding.
 
-Libraries only work properly on Windows 10, as they require powershel.
+Libraries only work properly on Windows 10, as they require powershell.
 BatchUtilities is still under development - features are being improved and new ones added.
