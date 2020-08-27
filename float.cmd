@@ -1,3 +1,4 @@
+@echo off
 rem Martyn's Studio
 set help=%1
 if %help%== help goto help

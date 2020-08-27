@@ -1,3 +1,4 @@
+@echo off
 if %1== help goto help
 call powershell Write-Host "%3" -ForegroundColor %2 -BackgroundColor %1
 exit /b
