@@ -1,15 +1,19 @@
 # BatchUtilities
 
-For libraries to work, upload them to %systemroot%\system32\
+To use unpack the modules to your program directory.
+Use call [module name] help - to learn how to use.
 
 It's best to use libraries after @echo off.
 
 **BatchUtilities currently allows:**
-1. Display help for commands after entering <command> help.
+1. Display help for commands after entering call <command> help.
 2. Colorful inscriptions.
 3. Colorful text.
 4. Performing operations on floating point numbers.
-5. Change the character encoding.
+5. Easily change the character encoding.
+6. Easily generate random numbers of any size you choose.
+7. Easily break time into hours, minutes, seconds and hundredths of a second.
+8. Easily break a date into days, months and years.
 
 Libraries only work properly on Windows 10, as they require powershell.
 BatchUtilities is still under development - features are being improved and new ones added.
