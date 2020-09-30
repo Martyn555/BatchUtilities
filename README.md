@@ -15,6 +15,7 @@ It's best to use libraries after @echo off.
 7. Easily break time into hours, minutes, seconds and hundredths of a second.
 8. Easily break a date into days, months and years.
 9. Playing mp3s in the background.
+10. Reading text by sapi.
 
 Libraries only work properly on Windows 10, as they require powershell.
 BatchUtilities is still under development - features are being improved and new ones added.
