@@ -2,8 +2,8 @@
 rem Martyn's Studio
 if %1== help goto help
 
-if not defined y goto numberingmodule1
-if defined y goto numberingmodule2
+if not defined numberingmoduley goto numberingmodule1
+if defined numberingmoduley goto numberingmodule2
 
 :help
 echo numbering [operation] [start number] [transition number] [finish number] [variable with the result]
@@ -13,18 +13,19 @@ exit/b
 
 :numberingmodule1
 rem początek
-set y=%2
+set numberingmoduley=%2
 rem działanie
-set z=%1
+set numberingmodulez=%1
 rem przeskok
-set w=%3
+set numberingmodulew=%3
 rem Martyn's Studio
 goto numberingmodule2
 
 :numberingmodule2
 rem Martyn's Studio
-set /a x=%y% %z% %w%
-set y=%x%
-set %5=%x%
+set /a numberingmodulex=%numberingmoduley% %numberingmodulez% %numberingmodulew%
+set numberingmoduley=%numberingmodulex%
+set %5=%numberingmodulex%
 if %4== x goto numberingmodule3
-if %x% GEQ %4 exit/b
+if %numberingmodulex% GEQ %4 goto numberingmodule1
+:numberingmodule3
