@@ -8,7 +8,8 @@ if %1== exit exit /b
 set displayimgvariablexxxxxxxxxxname=%1
 set displayimgvariablexxxxxxxxxxwidth=%2
 set displayimgvariablexxxxxxxxxxhight=%3
-set displayimgvariablewindownamex=%4
+set displayimgvariablewindowname=%4
+set displayimgvariablewindownamex=%displayimgvariablewindowname:+= %
 
 set /a displayimgvariablexxxxxxxxxxwidthplus=%displayimgvariablexxxxxxxxxxwidth% + 55
 set /a displayimgvariablexxxxxxxxxxhightplus=%displayimgvariablexxxxxxxxxxhight% + 55
@@ -47,5 +48,6 @@ echo Enter the path name and replace the spaces with pluses.
 echo If the image is in your program directory, enter -[filename with the extension.] Instead of the full path.
 echo To close the previously opened image, type exit instead of the full path.
 echo Supported file extensions: gif, jpg, png, bmp.
+echo Enter the window name and replace the spaces with pluses.
 echo.
 pause
