@@ -18,6 +18,7 @@ It's best to use libraries after @echo off.
 10. Reading text by sapi.
 11. Goto numbering.
 12. Displaying images in separate window.
+13. Send text to the selected window.
 
 Libraries only work properly on Windows 10, as they require powershell.
 BatchUtilities is still under development - features are being improved and new ones added.
