@@ -19,7 +19,7 @@ It's best to use libraries after @echo off.
 11. Goto numbering.
 12. Displaying images in separate window.
 13. Send text to the selected window.
-14. Unarchive archives.
+14. Unarchive files.
 15. Archive files.
 
 Libraries only work properly on Windows 10, as they require powershell.
