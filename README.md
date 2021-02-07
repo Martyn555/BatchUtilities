@@ -21,6 +21,7 @@ It's best to use libraries after @echo off.
 13. Send text to the selected window.
 14. Unarchive files.
 15. Archive files.
+16. Download file from URL.
 
 Libraries only work properly on Windows 10, as they require powershell.
 BatchUtilities is still under development - features are being improved and new ones added.
