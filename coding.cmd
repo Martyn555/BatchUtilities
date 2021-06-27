@@ -15,7 +15,7 @@ if %1== WestEuropeanLatin chcp 1252 >nul
 if %1== UTF-7 chcp 65000 >nul
 if %1== UTF-8 chcp 65001 >nul
 exit /b
-rem Martyn's Studio
+
 
 :help
 echo coding [code]

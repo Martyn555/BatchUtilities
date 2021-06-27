@@ -1,6 +1,6 @@
 @echo off
-rem Martyn's Studio
-if %1==help goto help
+
+if %1== help goto help
 call powershell Expand-Archive -Force %1 %2
 exit /b
 

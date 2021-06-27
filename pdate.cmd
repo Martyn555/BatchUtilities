@@ -1,5 +1,5 @@
 @echo off
-rem Martyn's Studio
+
 if %1== help goto help
 rem godziny
 if %1== d set %2=%date:~0,2%

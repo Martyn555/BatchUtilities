@@ -1,7 +1,7 @@
 @echo off
 set help=%1
 if %help%== help goto help
-rem Martyn's Studio
+
 set /a %2=%RANDOM% * %1 / 32768 + 1
 set /a %2=%RANDOM% * %1 / 32768 + 1
 set /a %2=%RANDOM% * %1 / 32768 + 1

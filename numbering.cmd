@@ -1,5 +1,5 @@
 @echo off
-rem Martyn's Studio
+
 if %1== help goto help
 
 if not defined numberingmoduley goto numberingmodule1
@@ -18,11 +18,11 @@ rem działanie
 set numberingmodulez=%1
 rem przeskok
 set numberingmodulew=%3
-rem Martyn's Studio
+
 goto numberingmodule2
 
 :numberingmodule2
-rem Martyn's Studio
+
 set /a numberingmodulex=%numberingmoduley% %numberingmodulez% %numberingmodulew%
 set numberingmoduley=%numberingmodulex%
 set %5=%numberingmodulex%

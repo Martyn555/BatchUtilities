@@ -1,5 +1,5 @@
 @echo off
-rem Martyn's Studio
+
 if %1== help goto help
 if not exist %2 call powershell Compress-Archive -Path %1 -DestinationPath %2
 if exist %2 call powershell Compress-Archive -Path %1 -Update -DestinationPath %2

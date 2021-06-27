@@ -2,7 +2,7 @@
 if %1== help goto help
 call powershell Write-Host "%3" -ForegroundColor %2 -BackgroundColor %1
 exit /b
-rem Martyn's Studio
+
 :help
 echo colorecho [atr] [atr2] ["text"]
 echo.

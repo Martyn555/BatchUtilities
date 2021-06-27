@@ -1,5 +1,5 @@
 @echo off
-rem Martyn’s Studio
+
 if %1== help goto help
 
 if %1== exit TASKKILL /IM iexplore.exe >nul
@@ -37,13 +37,13 @@ start dispimg.vbs
 
 
 
-rem Martyn’s Studio
+
 exit /b
 
 :help
 echo displayimg [full path with the extension] [width in pixels] [height in pixels] [window name]
 echo.
-rem Martyn’s Studio
+
 echo Enter the path name and replace the spaces with pluses.
 echo If the image is in your program directory, enter -[filename with the extension.] Instead of the full path.
 echo To close the previously opened image, type exit instead of the full path.
