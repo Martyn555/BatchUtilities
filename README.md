@@ -22,6 +22,7 @@ It's best to use libraries after @echo off.
 14. Unarchive files.
 15. Archive files.
 16. Download file from URL.
+17. Use milliseconds in timeout.
 
 Libraries only work properly on Windows 10, as they require powershell.
 BatchUtilities is still under development - features are being improved and new ones added.
