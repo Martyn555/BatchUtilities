@@ -12,6 +12,7 @@ if %1== Nordic chcp 865 >nul
 if %1== Russian chcp 866 >nul
 if %1== ModernGreek chcp 869 >nul
 if %1== WestEuropeanLatin chcp 1252 >nul
+if %1== CentralEuropeanLatin chcp 1250 >nul
 if %1== UTF-7 chcp 65000 >nul
 if %1== UTF-8 chcp 65001 >nul
 exit /b
@@ -29,5 +30,6 @@ echo    Turkish		WestEuropeanLatin
 echo    Portuguese		UTF-7
 echo    Icelandic		UTF-8
 echo    Canadian-French	UnatedStates
+echo    CentralEuropeanLatin
 echo.
 pause
