@@ -25,5 +25,5 @@ It's best to use libraries after @echo off.
 17. Use milliseconds in timeout.
 18. Running batches silently.
 
-Libraries only work properly on Windows 10, as they require powershell.
+Libraries only work properly on Windows 10 and 11, as they require powershell.
 BatchUtilities is still under development - features are being improved and new ones added.
