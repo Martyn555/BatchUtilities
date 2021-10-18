@@ -1,7 +1,7 @@
 # BatchUtilities
 
 To use unpack the modules to your program directory.
-Use call [module name] help - to learn how to use.
+Use call [module name] help to learn how to use.
 
 It's best to use libraries after @echo off.
 
